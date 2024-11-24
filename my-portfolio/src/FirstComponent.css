@@ -1,0 +1,19 @@
+.First {
+ /* background-color: #b9aa7e; */
+ /* background-color: #E9EED9; */
+ background-color: #E4E0E1;
+ /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+ font-family:'Times New Roman', Times, serif
+}
+@media (max-width: 768px) {
+  .First {
+    width: 100%;
+    margin-bottom: 1.5rem; /* Adjust bottom margin on smaller screens */
+  }
+  .First h2 {
+    font-size: 1.5rem;
+  }
+  .First p {
+    font-size: 1rem;
+  }
+}
